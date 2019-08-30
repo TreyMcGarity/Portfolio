@@ -1,0 +1,62 @@
+
+html {
+    font-size: 62.55%;
+}
+
+body {
+    background: rgb(198, 207, 216);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: .1rem solid black;
+    height: 10rem;
+}
+
+header img {
+    width: 10rem;
+    height: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: rgba(252, 252, 252, 0.938);
+}
+
+header nav a {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: courier;
+    color: black;
+    background: rgb(198, 207, 216);
+    border: .1rem solid black;
+    border-radius: 1rem;
+}
+
+main {
+    height: 50rem;
+    width: 100%;
+    border-bottom: .1rem solid black;
+    font-size: 2em;
+    color: black;
+    background: white;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: row;
+}
+.main-content{
+    width: 70%;
+    background: grey;
+}
+.side-content {
+    width: 30%;
+    background: lightgrey;
+}
