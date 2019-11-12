@@ -1,4 +1,3 @@
-
 html {
     font-size: 62.55%;
 }
@@ -37,7 +36,7 @@ h3 {
     display: flex;
     flex-direction: row;
     align-content: space-between;
-    height: 100rem;
+    height: 130rem;
     width: 100%;
     border-top: .1rem solid black;
     font-size: 2.5em;
@@ -53,16 +52,27 @@ h3 {
 
 .left-content img {
     height: 30%;
-    width: 60%;
-    margin-left: 18%;
+    width: 70%;
+    margin-left: 10%;
     border: .2rem solid black;
 }
 
 .middle-content{
+    display:flex;
+    flex-direction: column;
     width: 33%;
     padding: 1%;
     background-image: url("/images/grey-linen-texture-background.jpg");
     border: .1rem solid black;
+}
+
+.middle-content img {
+    height: 5rem;
+    width: 7rem;  
+}
+
+.skills {
+    height: 35%;
 }
 
 .right-content {
@@ -72,9 +82,10 @@ h3 {
     border: .1rem solid black;
 }
 
-.projects a {
+a {
     text-decoration: none;
 }
+
 footer {
     height: 10rem;
 }
