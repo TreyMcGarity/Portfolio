@@ -1,91 +1,28 @@
-html {
-    font-size: 62.55%;
-}
+
 
 body {
-    background-image: url("/images/dark-wood-background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-h1 {
-    margin-left: 1em;
-    color: white;
-}
-
-h2 {
-    border-bottom: .1rem solid black;
-}
-
-h3 {
-    border-bottom: .1rem dashed black;
+    background-color: #202020;
+    color: #FBFBFB;
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    font-size: 3em;
 }
 
-.header img {
-    height: 10rem;
+.profile img {
+    width: 5em;
 }
 
-.main {
+.tech {
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    height: 130rem;
-    width: 100%;
-    border-top: .1rem solid black;
-    font-size: 2.5em;
-    color: black;
 }
 
-.left-content {
-    width: 33%;
-    padding: 1%;
-    background-image: url("/images/grey-linen-texture-background.jpg");
-    border: .1rem solid black;
+.tech .stack {
+    width: 25%;
+    border: .1em solid black;
 }
 
-.left-content img {
-    height: 30%;
-    width: 70%;
-    margin-left: 10%;
-    border: .2rem solid black;
-}
-
-.middle-content{
-    display:flex;
-    flex-direction: column;
-    width: 33%;
-    padding: 1%;
-    background-image: url("/images/grey-linen-texture-background.jpg");
-    border: .1rem solid black;
-}
-
-.middle-content img {
-    height: 5rem;
-    width: 7rem;  
-}
-
-.skills {
-    height: 35%;
-}
-
-.right-content {
-    width: 33%;
-    padding: 1%;
-    background-image: url("/images/grey-linen-texture-background.jpg");
-    border: .1rem solid black;
-}
-
-a {
-    text-decoration: none;
-}
-
-footer {
-    height: 10rem;
+.tech .projects {
+    width: 75%;
 }
