@@ -1,13 +1,15 @@
 body {
-    margin: 0 10% 0 10%;
+    margin: 0 15%;
     display: flex;
     flex-direction: column;
     background-color: #202020;
     color: #FBFBFB;
+    font-size: larger;
 }   
   
 .header {
-    justify-content: space-between
+    font-size:x-large;
+    justify-content: space-between;
 }
 
 .header div {
@@ -18,35 +20,71 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-between;
-    margin: 5em 20em;
+    justify-content: space-around;
+    margin: 5em;
+}
+
+h3 {
+    padding: 0 3em;
+}
+
+a {
+    text-decoration: none;
+    color: #FBFBFB;
 }
   
 section {
     display: flex;
     flex-direction: row;
-    margin: 5em 0 5em 0;
+    margin: 2em 0 2em 0;
 }
 
 .description {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+    border-bottom: .1em solid #581845;
+}
+
+.description img {
+    width: 12em;
+    height: 20em;
+    border-radius: 5%;
 }
 
 .intro {
-    width: 40%;
+    width: 35%;
+    height: 10em;;
+    padding: 0 5em;
+}
+
+.intro .resume {
+    padding: .5em;
+    background-color: #581845;
+    border-radius: 2em;
 }
 
 .stack {
     display: flex;
-    justify-content: space-between;
-    border: .1em solid black;
+    justify-content: space-around;
+    padding: 2em;
+    border-bottom: .1em solid #581845;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .projects .project {
     height: 15em;
-    width: 20em;
+    width: 18em;
     margin: 1em;
+    color: #202020;
+    background-color: #FBFBFB;
     border: .1em solid black;
 }
 
@@ -54,6 +92,10 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.education {
+    width: 70%;
 }
 
 .contact {
