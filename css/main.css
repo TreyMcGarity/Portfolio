@@ -10,16 +10,22 @@ body {
     justify-content: space-between
 }
 
-nav {
+.header div {
     display: flex;
     justify-content: space-around;
-    margin: 5em 15em;
+    width: 20em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 5em 20em;
 }
   
 section {
     display: flex;
     flex-direction: row;
-    /* margin: 5em 0 5em 0; */
+    margin: 5em 0 5em 0;
 }
 
 .description {
@@ -27,7 +33,13 @@ section {
     justify-content: space-around;
 }
 
+.intro {
+    width: 40%;
+}
+
 .stack {
+    display: flex;
+    justify-content: space-between;
     border: .1em solid black;
 }
 
