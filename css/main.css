@@ -70,6 +70,11 @@ section {
     border-bottom: .1em solid #581845;
 }
 
+.stack img {
+    height: 5em;
+    width: 5em;
+}
+
 .projects {
     padding: 0 4em;
     display: flex;
