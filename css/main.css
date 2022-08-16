@@ -20,8 +20,8 @@ body {
 
 nav {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    margin: 5em;
 }
 
 h3 {
@@ -31,6 +31,16 @@ h3 {
 a {
     text-decoration: none;
     color: #FBFBFB;
+}
+
+.social {
+    height: 3em;
+    width: 3em;
+}
+
+.description .social {
+    height: 3em;
+    width: 3em;
 }
   
 section {
@@ -42,8 +52,6 @@ section {
 .description {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 2em;
-    border-bottom: .1em solid #581845;
 }
 
 .description img {
@@ -65,12 +73,22 @@ section {
 
 .stack {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 2em;
-    border-bottom: .1em solid #581845;
 }
 
 .stack img {
+    height: 6.5em;
+    width: 6.5em;
+}
+
+.stack .wide {
+    height: 7em;
+    width: 10em;
+}
+
+.stack .big {
+    padding-top: 1em;;
     height: 5em;
     width: 5em;
 }
