@@ -60,7 +60,6 @@ section {
 
 .intro {
     width: 40%;
-    padding: 0 5em;
 }
 
 .intro div {
@@ -84,18 +83,18 @@ section {
 }
 
 .stack img {
-    height: 3em;
-    width: 4em;
+    height: 3.5em;
+    width: 3.5em;
 }
 
 .stack .wide {
-    height: 3em;
+    height: 3.5em;
     width: 5em;
 }
 
 .stack .big {
-    height: 2.5em;
-    width: 2.5em;
+    height: 3em;
+    width: 3em;
 }
 
 .projects {
