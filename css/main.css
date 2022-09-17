@@ -6,17 +6,29 @@ body {
     flex-direction: column;
     background-color: #17202A;
     color: #FBFBFB;
-    font-size: larger;
+    font-size: large;
 }   
   
-.header {
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     font-size: x-large;
 }
 
-.header div {
-    display: flex;
-    justify-content: space-around;
-    width: 20em;
+header h1 {
+    margin: 2em;
+}
+
+header img {
+    height: 2em;
+    width: 2em;
+}
+
+header img:hover {
+    transform: rotate(90deg);
+    transition-duration: 2s;
 }
 
 nav {
@@ -35,8 +47,9 @@ h3 {
 .description .social {
     height: 2em;
     width: 2em;
-    padding: 1em 2em;
+    padding: 1em 1em;
     transition-duration: 3s;
+    border-radius: 0 3em 3em 0;
     border-left: .5em solid #202020;
 }
 
