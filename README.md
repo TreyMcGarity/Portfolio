@@ -15,7 +15,7 @@
  
 #### CSS <br>
  - [X] responsive design (desktop to mobile)
- - [ ] Interactive "animations" for user feedback (socials, navigation)
+ - [/] Interactive "animations" for user feedback (socials, navigation)
    [ ] animation page movement (make it alive)
    [ ] Handle stack and socials (sucky atm)
         [ ] Custom images
