@@ -5,19 +5,13 @@
  - [ ] Add viewable copy of resume to about section as well as downloadable (need to update resume to current)
     [/] I have it through embedded pdf display, looks weird? 
     [x] Make display image and compared, needs to not show in mobile
-    [ ] Improve structure
-    [ ] seemingly multi-page Contact > Projects < About (no scroll bar) -- but its actually a div and css cantrip 
-        [ ] Overview:        
-                    Intro
-        Contact <  Projects  >  About
-                    Stack
+    [/] Improve structure
  - [ ] Finalized About Info to fit About page
  
 #### CSS <br>
  - [X] responsive design (desktop to mobile)
- - [/] Interactive "animations" for user feedback (socials, navigation)
-   [ ] animation page movement (make it alive)
-   [ ] Handle stack and socials (sucky atm)
+ - [X] Interactive "animations" for user feedback (socials, navigation)
+   [ ] Handle stack and socials
         [ ] Custom images
         [ ] dynamic response
  - [ ] better colors
@@ -26,3 +20,5 @@
 #### Produce
 [ ] Host it on web<br>
 [ ] Purchase Domain<br>
+
+
