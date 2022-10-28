@@ -14,6 +14,7 @@
    [ ] Handle stack and socials
         [ ] Custom images
         [ ] dynamic response
+        [X] !Modak font for Name!
  - [ ] better colors
 #### JS 
 [ ] Nylas Node.js Email API for contact section - https://developer.nylas.com/docs/learn-nylas/email/send-an-email-with-node-js/#video-walkthrough <br>
