@@ -6,15 +6,22 @@
     [/] I have it through embedded pdf display, looks weird? 
     [x] Make display image and compared, needs to not show in mobile
     [/] Improve structure
- - [ ] Finalized About Info to fit About page
+    [ ] Build Stack
+         [ ] Custom images
+         [ ] Dynamic response
+    [x] Build Socials
+ - [ ] Finalized About Info to fit About Section
  
 #### CSS <br>
- - [X] responsive design (desktop to mobile)
+ - [/] responsive design (desktop to mobile)
+   [X] !Modak font for Name!
  - [X] Interactive "animations" for user feedback (socials, navigation)
-   [ ] Handle stack and socials
-        [ ] Custom images
-        [ ] dynamic response
-        [X] !Modak font for Name!
+   [ ] Design stack 
+   [ ] Design resume
+   [ ] Design About Section
+   [x] Design socials
+        [x] Custom images
+        [x] Dynamic response
  - [ ] better colors
 #### JS 
 [ ] Nylas Node.js Email API for contact section - https://developer.nylas.com/docs/learn-nylas/email/send-an-email-with-node-js/#video-walkthrough <br>
