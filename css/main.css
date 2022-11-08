@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 
 :root {
     --primarycolor: #17202A;
@@ -31,6 +33,7 @@ body {
     flex-direction: column;
     background-color: var(--primarycolor);
     color: var(--secondarycolor);
+    font-family: 'Roboto', sans-serif;
     font-size: large;
 }
 
