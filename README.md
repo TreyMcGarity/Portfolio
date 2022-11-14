@@ -9,6 +9,8 @@
     [ ] Build Stack
          [ ] Custom images
          [ ] Dynamic response
+    [ ] Better face shot
+    [ ]
     [x] Build Socials
  - [ ] Finalized About Info to fit About Section
  
@@ -23,6 +25,7 @@
         [x] Custom images
         [x] Dynamic response
  - [ ] better colors
+   [ ] better styling
 #### JS 
 [ ] Nylas Node.js Email API for contact section - https://developer.nylas.com/docs/learn-nylas/email/send-an-email-with-node-js/#video-walkthrough <br>
 #### Produce
