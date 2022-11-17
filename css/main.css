@@ -100,7 +100,7 @@ nav {
     border-radius: 0 1em 1em 0;
     border-left: 1em solid var(--primarycolor);
 }
-  
+
 section {
     display: flex;
     flex-direction: column;
@@ -228,7 +228,18 @@ footer {
 
 @media (max-width: 700px) {
 
-    
+    .name {
+        font-size: 3em;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .contact {
+        margin: 0em;
+    }
+
     nav {
         display: none;
     }
