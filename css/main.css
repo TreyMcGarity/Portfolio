@@ -54,8 +54,10 @@ header {
 }
 
 header img {
-    height: 2em;
-    width: 2em;
+    height: 4em;
+    width: 3.5em;
+    border-radius: 3em;
+    padding: 1em;
 }
 
 header a {
